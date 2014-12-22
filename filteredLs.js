@@ -1,4 +1,4 @@
-var FIRST_ARGUMENT_IN_COMMAND_LINE = 2;
+const FIRST_ARGUMENT_IN_COMMAND_LINE = 2;
 var pathDirectory = process.argv[FIRST_ARGUMENT_IN_COMMAND_LINE];
 var extension = process.argv[FIRST_ARGUMENT_IN_COMMAND_LINE + 1];
 
