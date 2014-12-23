@@ -1,4 +1,4 @@
-var FIRST_ARGUMENT_IN_COMMAND_LINE = 2;
+const FIRST_ARGUMENT_IN_COMMAND_LINE = 2;
 var http = require('http');
 var url = process.argv[FIRST_ARGUMENT_IN_COMMAND_LINE];
 http.get(url,function(response){
